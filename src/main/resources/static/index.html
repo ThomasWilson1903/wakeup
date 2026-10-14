@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wake-on-LAN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Wake-on-LAN</h1>
+        <p class="subtitle">Удалённое включение серверов</p>
+    </header>
+
+    <main>
+        <div id="error" class="error hidden"></div>
+        <div id="machines" class="machines"></div>
+        <p id="empty" class="empty hidden">Нет настроенных машин. Добавьте их в application.yml.</p>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

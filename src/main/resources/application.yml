@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+wakeup:
+  wake-port: 9
+  default-broadcast: "255.255.255.255"
+  status-check:
+    connect-timeout-ms: 1500
+  machines:
+    - name: twilson-server
+      mac: "0a:e0:af:af:2d:d5"
+      ip: "100.92.222.28"
+      port: 22
+      broadcast: "192.168.88.255"
