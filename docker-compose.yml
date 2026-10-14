@@ -1,0 +1,9 @@
+services:
+  wakeup:
+    build: .
+    container_name: wakeup
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      - TZ=Europe/Moscow
+      - SPRING_PROFILES_ACTIVE=default
