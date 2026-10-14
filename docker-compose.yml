@@ -4,6 +4,8 @@ services:
     container_name: wakeup
     restart: unless-stopped
     network_mode: host
+    volumes:
+      - ./ssh:/app/ssh:ro
     environment:
       - TZ=Europe/Moscow
       - SPRING_PROFILES_ACTIVE=default

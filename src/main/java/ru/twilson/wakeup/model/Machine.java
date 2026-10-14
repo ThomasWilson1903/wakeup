@@ -5,6 +5,7 @@ public record Machine(
         String mac,
         String ip,
         int port,
-        String broadcast
+        String broadcast,
+        String sshUser
 ) {
 }

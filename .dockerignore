@@ -1,6 +1,7 @@
 target/
 .git/
 .idea/
+ssh/
 *.iml
 *.md
 *.log

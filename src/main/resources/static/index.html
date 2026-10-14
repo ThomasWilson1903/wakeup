@@ -18,6 +18,17 @@
         <p id="empty" class="empty hidden">Нет настроенных машин. Добавьте их в application.yml.</p>
     </main>
 
+    <div id="modal" class="overlay hidden">
+        <div class="dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+            <h2 id="modal-title">Выключить сервер?</h2>
+            <p id="modal-text" class="modal-text"></p>
+            <div class="dialog-actions">
+                <button type="button" id="modal-cancel" class="secondary">Отмена</button>
+                <button type="button" id="modal-confirm" class="danger">Выключить</button>
+            </div>
+        </div>
+    </div>
+
     <script src="app.js"></script>
 </body>
 </html>
